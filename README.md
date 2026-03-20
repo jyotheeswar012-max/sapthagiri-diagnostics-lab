@@ -287,11 +287,3 @@ LAB_EMAIL=info@sapthagirilab.com
 
 ---
 
-## 📝 Important Notes
-
-- **Before deploying:** Update `const BASE` in `frontend/index.html` to your live backend URL
-- **JWT_SECRET:** Use a long random string in production (min 32 characters)
-- **PDF generation:** Reports are auto-generated on the fly — no file upload needed for basic reports. Doctors can also upload custom formatted PDFs
-- **SMS:** Works out of the box with MSG91. Falls back to console logging if keys are not set
-- **Payments:** Razorpay works in test mode with `rzp_test_*` keys. Switch to live keys (`rzp_live_*`) for real transactions
-- **Security:** The auth middleware accepts JWT from both `Authorization: Bearer` header and `?token=` query param (required for PDF downloads via `window.open`)
