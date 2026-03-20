@@ -211,7 +211,7 @@ pm2 startup   # auto-start on reboot
 3. Create a database user and whitelist your IP (or use 0.0.0.0/0 for open access)
 4. Copy the connection string and set in `.env`:
    ```
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/sapthagiri_lab
+   
    ```
 
 ---
