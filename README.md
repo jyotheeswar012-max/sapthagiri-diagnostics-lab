@@ -64,3 +64,9 @@ open index.html
 Made with ❤️ by [Jyotheeswar Reddy](https://github.com/jyotheeswar012-max)
 
 </div>
+# Hello World
+
+This is my first repository for earning GitHub trophies.
+
+- Learning GitHub
+- Working on Swarm Robotics & ML projects
